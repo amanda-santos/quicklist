@@ -12,21 +12,21 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/assets/apple-touch-icon.png"
+      href="/assets/favicon/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/assets/favicon-32x32.png"
+      href="/assets/favicon/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/assets/favicon-16x16.png"
+      href="/assets/favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="manifest" href="/assets/site.webmanifest" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Leckerli+One&display=swap"
@@ -34,6 +34,44 @@
     />
   </head>
   <body>
-    Hello
+    <header class="main-header">
+      <img src="/assets/logo.svg" alt="QuickList Logo" />
+    </header>
+
+    <main>
+      <a class="link" href="">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          color="currentColor"
+          fill="none"
+        >
+          <path
+            d="M3.99982 11.9998L19.9998 11.9998"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M8.99963 17C8.99963 17 3.99968 13.3176 3.99966 12C3.99965 10.6824 8.99966 7 8.99966 7"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        Go back
+      </a>
+
+      <h1>Weekly grocery list</h1>
+
+      <form>
+        <input type="text" placeholder="Add an item" />
+        <button type="submit">Add</button>
+      </form>
+    </main>
   </body>
 </html>
